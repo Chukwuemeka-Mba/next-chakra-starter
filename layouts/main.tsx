@@ -13,9 +13,7 @@ const Main = ({ children }) => {
           rel="shortcut icon"
           href="https://res.cloudinary.com/dz37h4oq1/image/upload/v1665962584/all/sorta-logo_oe303b.png"
         />
-        <title>
-          Sorta Server | No.1 Application for sorting twitter bookmarks
-        </title>
+        <title>Sorta Server | Sort your twitter bookmarks with ease.</title>
       </Head>
       {children}
     </Box>

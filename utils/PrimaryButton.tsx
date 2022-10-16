@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Button } from "@chakra-ui/react";
+import { BsTwitter } from "react-icons/bs";
 export default function PrimaryButton() {
   const [authorizeUrl, setAuthorizeUrl] = useState("");
   const [authorize, setAuthorize] = useState(false);
@@ -34,12 +35,15 @@ export default function PrimaryButton() {
   }, []);
   return (
     <Button
+      display="flex"
+      gap="2"
       colorScheme="blue"
       variant="outline"
       isLoading={authorize}
       loadingText="Connecting"
     >
       <a href={authorizeUrl}>Connect Twitter</a>
+      <BsTwitter />
     </Button>
   );
 }

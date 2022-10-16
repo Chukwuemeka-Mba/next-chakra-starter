@@ -8,7 +8,7 @@ function Logo() {
     <Box px="0" display="flex" gap={4} alignItems={"center"}>
       <Image width={50} height={50} src={logo} alt="sorta-logo" />
       <Text fontWeight={700} fontSize="xl">
-        Sorta server
+        Sorta Server
       </Text>
     </Box>
   );
