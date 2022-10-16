@@ -1,0 +1,69 @@
+html,
+body {
+  // visibility: hidden;
+  padding: 0;
+  margin: 0;
+  font-family: "Avenir";
+  -webkit-font-smoothing: antialiased;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+a,
+button {
+  color: inherit;
+}
+
+*::selection {
+  color: rgb(222, 222, 222);
+  background: black;
+}

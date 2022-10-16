@@ -1,0 +1,56 @@
+.c_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 408px;
+  height: 272px;
+  background-color: #b3b3b380;
+  margin: 20px;
+  transition: all 250ms ease-in-out;
+  &:hover {
+    background-color: transparent;
+    .c_card_image {
+      transform: scale(1.05);
+      border: 4px solid black;
+      opacity: 1;
+    }
+  }
+  &_image {
+    width: 370px;
+    height: 223px;
+    padding: 25px 20px;
+    background-position: top;
+    background-size: cover;
+    opacity: 0.9;
+    transition: all 250ms ease-in-out;
+  }
+  &_text {
+    .c_5200s {
+      font-family: "Avenir Black";
+      font-size: 50px;
+      color: $col-white;
+      line-height: 100%;
+    }
+    .c_title {
+      font-family: "Avenir Bold";
+      font-size: 20px;
+      font-weight: 800;
+      color: $col-white;
+      width: fit-content;
+      line-height: 100%;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+    .c_desc {
+      margin-top: 27px;
+      p {
+        background-color: rgba(109, 109, 109, 0.8);
+        padding-block: 10px;
+        font-family: "Inter Regular";
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+      }
+    }
+  }
+}
